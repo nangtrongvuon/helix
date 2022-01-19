@@ -22,7 +22,7 @@
 "punctuation" = "grey2"
 "punctuation.delimiter" = "grey2"
 "punctuation.bracket" = "fg"
-"keyword" = "red"
+"keyword" = {fg = "red", modifiers = ["bold"]}
 "operator" = "orange"
 "function" = "green"
 "function.builtin" = "blue"
@@ -51,7 +51,7 @@
 "ui.background" = { bg = "bg0" }
 "ui.cursor" = { fg = "bg0", bg = "fg" }
 "ui.cursor.match" = { fg = "orange", bg = "bg_yellow" }
-"ui.cursor.insert" = { fg = "bg0", bg = "grey1" }
+"ui.cursor.insert" = { fg = "bg0", bg = "red" }
 "ui.cursor.select" = { fg = "bg0", bg = "blue" }
 "ui.linenr" = "grey0"
 "ui.linenr.selected" = "fg"
@@ -60,8 +60,9 @@
 "ui.popup" = { fg = "grey2", bg = "bg1" }
 "ui.window" = { fg = "grey2", bg = "bg1" }
 "ui.help" = { fg = "fg", bg = "bg1" }
-"ui.text" = "fg"
-"ui.text.focus" = "fg"
+"ui.text" = { fg = "base1" }
+"ui.text.focus" = { fg = "red", modifiers = ["bold"]}
+"ui.highlight" = { fg = "red", modifiers = ["bold", "italic", "underlined"] }
 "ui.menu" = { fg = "fg", bg = "bg2" }
 "ui.menu.selected" = { fg = "bg0", bg = "green" }
 "ui.selection" = { bg = "bg3" }

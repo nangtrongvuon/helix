@@ -51,7 +51,7 @@
 "ui.background" = { bg = "bg0" }
 "ui.cursor" = { fg = "bg0", bg = "fg" }
 "ui.cursor.match" = { fg = "orange", bg = "bg_yellow" }
-"ui.cursor.insert" = { fg = "bg0", bg = "grey1" }
+"ui.cursor.insert" = { fg = "bg0", bg = "red" }
 "ui.cursor.select" = { fg = "bg0", bg = "blue" }
 "ui.linenr" = "grey0"
 "ui.linenr.selected" = "fg"
@@ -75,7 +75,7 @@
 
 [palette]
 
-bg0 = "#fff9e8"
+bg0 = "#f0f0f0"
 bg1 = "#f7f4e0"
 bg2 = "#f0eed9"
 bg3 = "#e9e8d2"
